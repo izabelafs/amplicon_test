@@ -22,25 +22,20 @@ d)	number of amplicons supporting the mutation
 f)	reference sequence for the amplicon
 g)	mutated sequence for the amplicon
 
-They will most likely need previous alignment to the reference genome \genome.fa.gz\
-
 2)	Load amplicon file amplicon_3.test_2.fa, and report in a similar format as in 1)
 all the mutations in the amplicon
+
 3)	Extra Challenge: display in graphical format one or more of the previously identified mutation.
-Suggestions: the candidate might want to report the frequency of the mutation with a plot or bar plot;
-or use a sequence logo; or summarize the average mutation frequency per amplicon; etc. Format and solution are open
+Suggestions: the candidate might want to report the frequency of the mutation with a plot or bar plot; or use a sequence logo; or summarize the average mutation frequency per amplicon; etc. Format and solution are open
 
 ## Primer presence
 
-Amplicon libraries are prepared by PCR amplification of a specific target,
-for example the V4 hypervariable region of the bacterial 16S rRNA gene.
-All reads from this type of library are expected to be nearly identical.
+Amplicon libraries are prepared by PCR amplification of a specific target, for example the V4 hypervariable region of the bacterial 16S rRNA gene. All reads from this type of library are expected to be nearly identical.
 
 Expected results are:
 
-Extremely biased per base sequence content
-Extremely narrow distribution of GC content
-Very high sequence duplication levels
-Abundance of overrepresented sequences
-In cases where the PCR target is shorter than the read length,
-the sequence will read through into adapters
+- Extremely biased per base sequence content
+- Extremely narrow distribution of GC content
+- Very high sequence duplication levels
+- Abundance of overrepresented sequences
+- In cases where the PCR target is shorter than the read length,the sequence will read through into adapters
