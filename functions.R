@@ -160,8 +160,8 @@ find_supporting <- function(seq,amplicon,hits) {
       result$index[i] <- amplicon
       result$ref[i] <- diff[i,]
       result$mut[i] <- diff[i + 1,]
-      sub1[i] <- strsplit(diff[i, ], "")[[1]]
-      sub2[i] <- strsplit(diff[i + 1, ], "")[[1]]
+      sub1 <- strsplit(diff[i, ], "")[[1]]
+      sub2 <- strsplit(diff[i + 1, ], "")[[1]]
       result$can[i] <- sub1[sub1 != sub2]
       result$mm[i] <- sub2[sub1 != sub2]
       result$n_can[i] <- length(which(seq == diff[i, ]))
@@ -204,8 +204,8 @@ return_n_count <- function(seq) {
     if (i %% 2 == 0) {
       next
     } else {
-      sub1[i] <- strsplit(diff[i, ], "")[[1]]
-      sub2[i] <- strsplit(diff[i + 1, ], "")[[1]]
+      sub1 <- strsplit(diff[i, ], "")[[1]]
+      sub2 <- strsplit(diff[i + 1, ], "")[[1]]
       df$fq_a[i] <- sum(sub1 == "A") / length(sub1)
       df$fq_c[i] <- sum(sub1 == "C") / length(sub1)
       df$fq_g[i] <- sum(sub1 == "G") / length(sub1)
