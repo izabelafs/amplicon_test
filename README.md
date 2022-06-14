@@ -12,7 +12,7 @@ At a high level, the candidate should:
 The fasta reference file is provided as genome.fa.gz.
 See next paragraph “Questions” for a detailed list of all questions and tasks
 
-##Read amplicon files
+## Read amplicon files
 1)	Read input files for the three amplicons files amplicon_1.fa.gz, amplicon_2.fa.gz
 and amplicon_3.fa.gz and report to file a table containing:
 a)	Gene name
@@ -30,7 +30,7 @@ all the mutations in the amplicon
 Suggestions: the candidate might want to report the frequency of the mutation with a plot or bar plot;
 or use a sequence logo; or summarize the average mutation frequency per amplicon; etc. Format and solution are open
 
-##Primer presence
+## Primer presence
 
 Amplicon libraries are prepared by PCR amplification of a specific target,
 for example the V4 hypervariable region of the bacterial 16S rRNA gene.
